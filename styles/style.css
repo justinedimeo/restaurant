@@ -98,7 +98,7 @@ a {
 
 /* MAIN */
 
-/* ACCUEIL SLIDE */
+/* FIRST SLIDER */
 
 .monSlider-slide>a>img{
   width: 140%;
@@ -128,6 +128,42 @@ a {
   font-family: 'Playfair Display' , serif;
   padding-left: 28px;
 }
+
+/* SECOND SLIDER */
+
+
+.collegeCuli{
+  padding-left: 30px;
+}
+
+.tripAd{
+  width: 25%;
+  margin-left: 69%;
+  margin-top: -25%;
+}
+
+.informations>div{
+  text-align: center;
+}
+
+.informations>div>p{
+  color: #26CAE3;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+quote.JeanLouis{
+  display: inline-block;
+  color: #000000;
+  font-family: 'Playfair Display', serif;
+  padding : 0 0 5px 0;
+  border-bottom : 1.3px solid #26CAE3;
+  font-style: italic;
+  font-size: 23px;
+}
+
+
 
 /** RESPONSIVE DU SLIDER **/
 

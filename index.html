@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link rel="stylesheet" type="text/css" href="styles/foundation.css">
-    <link rel="stylesheet" type="text/css" href="styles/hamburgers.min.css">
-    <link rel="stylesheet" type="text/css" href="styles/slick-theme.css">
-    <link rel="stylesheet" type="text/css" href="styles/slick.css">
-    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/foundation.css">
+  <link rel="stylesheet" type="text/css" href="styles/hamburgers.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="styles/slick.css">
+  <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
+
+<body>
 
   <!-- MENU HAMBURGER -->
   <div id="burgerMenu">
@@ -55,10 +57,11 @@
   </header>
 
   <main>
-  
-   <!-- SLIDER --> 
+
+    <!-- SLIDER -->
     <div class="monSlider">
-      <div class="monSlider-slide columns large-12">
+      <!-- 1ST SLIDE -->
+      <div class="monSlider-slide">
         <a href="" title=""><img src="images/pageaccueil1.png" alt="un plat" /></a>
         <div class="informations">
           <h2 class="titreSlide">
@@ -76,13 +79,20 @@
           <p>Villers-Sur-Marne</p>
         </div>
       </div>
-      <div class="monSlider-slide columns large-12">
+      <!-- 2ND SLIDE -->
+      <div class="monSlider-slide">
         <a href="" title=""><img src="images/pageaccueil2.png" alt="un plat" /></a>
         <div class="informations">
-          <h2 class="titreSlide">Je suis un H2 <a href="" title="">plus d'informations ici</a></h2>
-        </div>
+          <img class="collegeCuli" alt="titre du collège culinaire" src="images/collegeCulinaire.gif" />
+          <img class="tripAd" alt="logo de trip advisor" src="images/tripAdvisor.png"/>
+          <div>
+            <quote class="JeanLouis">« Vraiment la meilleure table de la région »</quote>
+            <p>Jean-Louis</p>
+          </div>
+          </div>
       </div>
-      <div class="monSlider-slide columns large-12">
+      <!-- 3RD SLIDE -->
+      <div class="monSlider-slide">
         <a href="" title=""><img src="images/pageaccueil3.png" alt="un plat" /></a>
         <div class="informations">
           <h2 class="titreSlide">Je suis un H2 <a href="" title="">plus d'informations ici</a></h2>
@@ -90,50 +100,50 @@
       </div>
     </div>
   </main>
-    
-   <footer id="footer">
-      <!--<div class="pagesLinks">
+
+  <footer id="footer">
+    <!--<div class="pagesLinks">
         <a href="#" title="Home">Accueil</a> /
         <a href="#" title="The Chief">Le Chef</a> /
         <a href="#" title="The Menu">La Carte</a> /
         <a href="#" title="Contacts">Contacts</a>
       </div> -->
-      <div class="share">
-        <div class="blue_line">-</div>
-        <div id="footerShare">Partager</div>
-        <div class="blue_line">-</div>
-      </div>
-      <div class="socialNetworks">
-        <a href="#" title="Facebook link"><img src="images/reseaux_sociaux/fb.png" alt="Facebook logo" /></a>
-        <a href="#" title="Instagram link"><img src="images/reseaux_sociaux/insta.png" alt="Instagram logo" /></a>
-        <a href="#" title="Trip Advisor Link"><img src="images/footer/footer_trip_advisor.png" alt="Trip Advisor logo" /></a>
-      </div>
-      <div class="informationsFooter">
-        <div class="infosBig">
-          <img src="images/footer/footer_couverts.svg" alt="Eat logo" />
-          <div class="infosLittle infos1">
-            <div>Midi 12 h 00 à 14 h 30</div>
-            <div>Soir 19 h 30 à 21 h 30</div>
-          </div>
-        </div>
-        <div class="infosBig">
-          <img src="images/footer/footer_horloge.svg" />
-          <div class="infosLittle infos1">
-            <div>1 rue du Progrès / Villiers-Sur-Marne</div>
-            <div>Du Mardi au Samedi</div>
-          </div>
-        </div>
-        <div class="infosBig">
-          <img src="images/footer/footer_telephone.svg" />
-          <div class="telephone infosLittle">
-            <div>01 49 30 20 37</div>
-          </div>
+    <div class="share">
+      <div class="blue_line">-</div>
+      <div id="footerShare">Partager</div>
+      <div class="blue_line">-</div>
+    </div>
+    <div class="socialNetworks">
+      <a href="#" title="Facebook link"><img src="images/reseaux_sociaux/fb.png" alt="Facebook logo" /></a>
+      <a href="#" title="Instagram link"><img src="images/reseaux_sociaux/insta.png" alt="Instagram logo" /></a>
+      <a href="#" title="Trip Advisor Link"><img src="images/footer/footer_trip_advisor.png" alt="Trip Advisor logo" /></a>
+    </div>
+    <div class="informationsFooter">
+      <div class="infosBig">
+        <img src="images/footer/footer_couverts.svg" alt="Eat logo" />
+        <div class="infosLittle infos1">
+          <div>Midi 12 h 00 à 14 h 30</div>
+          <div>Soir 19 h 30 à 21 h 30</div>
         </div>
       </div>
-      <div>
-        <img src="images/logo.png" alt="logo" class="logo" />
+      <div class="infosBig">
+        <img src="images/footer/footer_horloge.svg" />
+        <div class="infosLittle infos1">
+          <div>1 rue du Progrès / Villiers-Sur-Marne</div>
+          <div>Du Mardi au Samedi</div>
+        </div>
       </div>
-    </footer>
+      <div class="infosBig">
+        <img src="images/footer/footer_telephone.svg" />
+        <div class="telephone infosLittle">
+          <div>01 49 30 20 37</div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <img src="images/logo.png" alt="logo" class="logo" />
+    </div>
+  </footer>
 
   <!-- SCRIPTS -->
   <script src="scripts/jquery.js"></script>
@@ -151,4 +161,5 @@
   </script>
   <script src="scripts/hamburger.js"></script>
 </body>
+
 </html>
