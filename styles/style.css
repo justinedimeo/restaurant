@@ -19,7 +19,7 @@ nav img{
 }
 
 .menu1{
-  padding-left: 150px;
+  padding-left: 70px;
 }
 
 ul {
@@ -37,7 +37,7 @@ ul.menu1>li {
 ul.menu1 li a {
   display: inline-block;
   color: #FFFFFF;
-  font-size: 22px;
+  font-size: 20px;
   transition: ease-in-out 0.4s;
 }
 
