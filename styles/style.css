@@ -104,6 +104,10 @@ a {
   width: 140%;
 }
 
+.informations{
+  margin-top: -30px;
+}
+
 .monSlider-slide {
   position: relative;
 }
@@ -127,6 +131,27 @@ a {
   color: #fff;
   font-family: 'Playfair Display' , serif;
   padding-left: 28px;
+}
+
+.informations>button>a{
+  color: #fff;
+  display: inline-block;
+  padding: 6px 20px;
+  transition: ease-in-out 0.5s;
+}
+
+.informations>button>a:hover{
+  background: #fff;
+  color: #26CAE3;
+}
+
+.informations>button{
+  background-color: #26CAE3;
+  font-family: 'Playfair Display' , serif;
+  border-radius: 2px;
+  margin-left: 28px;
+  margin-top: 27px;
+  font-weight: 800;
 }
 
 /* SECOND SLIDER */
@@ -165,28 +190,11 @@ quote.JeanLouis{
 
 
 
-/** RESPONSIVE DU SLIDER **/
-
-@media screen and (max-width: 1030px) {
-  .informations h2 {
-    font-size: 45px;
-    margin-bottom: -10px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .informations p {
+@media screen and (max-width: 850px){
+  .monSlider{
     display: none;
   }
-  .informations h2 {
-    font-size: 40px;
-  }
 }
-
-
-
-
-
 
 
 
