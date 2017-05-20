@@ -1,8 +1,4 @@
-/* 
-
-HEADER 
-
-*/
+/* HEADER */
 
 header {
   font-family: 'Playfair Display' , serif;
@@ -89,8 +85,63 @@ a {
   
   #burgerMenu, #button{
     display: block;
+    z-index: 1000;
   }
 }
 
 
 /* END OF HAMBURGER */
+
+
+
+
+
+/* MAIN */
+
+/* ACCUEIL SLIDE */
+
+.monSlider-slide>a>img{
+  width: 140%;
+}
+
+.monSlider-slide {
+  position: relative;
+}
+
+.monSlider-slide .informations {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.slick-prev {
+  left: 25px;
+  z-index: 99;
+}
+
+.slick-next {
+  right: 25px;
+  z-index: 99;
+}
+
+
+/** RESPONSIVE DU SLIDER **/
+
+@media screen and (max-width: 1030px) {
+  .informations h2 {
+    font-size: 45px;
+    margin-bottom: -10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .informations p {
+    display: none;
+  }
+  .informations h2 {
+    font-size: 40px;
+  }
+}
+
+

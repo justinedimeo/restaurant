@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <link rel="stylesheet" type="text/css" href="styles/style.css">
-  <link rel="stylesheet" type="text/css" href="styles/foundation.min.css">
+  <link rel="stylesheet" type="text/css" href="styles/foundation.css">
   <link rel="stylesheet" type="text/css" href="styles/hamburgers.min.css">
   <link rel="stylesheet" type="text/css" href="styles/slick-theme.css">
   <link rel="stylesheet" type="text/css" href="styles/slick.css">
@@ -37,29 +37,62 @@
 
   <header id="headerOne">
     <nav>
-      <a href="#"><img src="images/logo.png" title="logo du restaurant les mignardises" /></a>
+      <a href="#" title="logo de la marque"><img src="images/logo.png" alt="logo du restaurant les mignardises" /></a>
       <ul class="menu1">
         <li>
-          <a href="">Accueil</a>
+          <a href="" title="Accueil">Accueil</a>
         </li>
         <li>
-          <a href="">La Carte</a>
+          <a href="" title="La Carte">La Carte</a>
         </li>
         <li>
-          <a href="">Le Chef</a>
+          <a href="" title="Le Chef">Le Chef</a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a href="" title="Contact">Contact</a>
         </li>
       </ul>
     </nav>
   </header>
-  <main>
 
+  <main>
+    <div class="monSlider">
+      <div class="monSlider-slide columns large-12">
+        <a href="" title=""><img src="images/pageaccueil1.png" alt="un plat" /></a>
+        <div class="informations">
+          <h2 class="titreSlide">Restaurant<a href="" title="">plus d'informations ici</a></h2>
+        </div>
+      </div>
+      <div class="monSlider-slide columns large-12">
+        <a href="" title=""><img src="images/pageaccueil2.png" alt="un plat" /></a>
+        <div class="informations">
+          <h2 class="titreSlide">Je suis un H2 <a href="" title="">plus d'informations ici</a></h2>
+        </div>
+      </div>
+      <div class="monSlider-slide columns large-12">
+        <a href="" title=""><img src="images/pageaccueil3.png" alt="un plat" /></a>
+        <div class="informations">
+          <h2 class="titreSlide">Je suis un H2 <a href="" title="">plus d'informations ici</a></h2>
+        </div>
+      </div>
+    </div>
   </main>
 
-  <script src="scripts/hamburger.js"></script>
+  <!-- SCRIPTS -->
+  <script src="scripts/jquery.js"></script>
+  <script src="scripts/what-input.js"></script>
+  <script src="scripts/foundation.min.js"></script>
   <script src="scripts/slick.min.js"></script>
+  <script>
+    $('.monSlider').slick({
+      dots: true,
+      infinite: true,
+      speed: 1000,
+      slidesToShow: 1,
+      adaptiveHeight: true,
+    });
+  </script>
+  <script src="scripts/hamburger.js"></script>
 </body>
 
 </html>
