@@ -100,7 +100,7 @@ FOOTER
 
 =======
 /* HEADER */
-/*
+
 header {
   font-family: 'Playfair Display' , serif;
 }
@@ -147,7 +147,7 @@ a {
 }
 
 /* HAMBURGER */
-/*
+
 #button{
   display: none;
 }
@@ -200,7 +200,7 @@ a {
 /* MAIN */
 
 /* ACCUEIL SLIDE */
-/*
+
 .monSlider-slide>a>img{
   width: 140%;
 }
@@ -228,7 +228,7 @@ a {
 
 
 /** RESPONSIVE DU SLIDER **/
-/*
+
 @media screen and (max-width: 1030px) {
   .informations h2 {
     font-size: 45px;
