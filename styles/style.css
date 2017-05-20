@@ -188,10 +188,49 @@ quote.JeanLouis{
   font-size: 23px;
 }
 
+/* THIRD SLIDER */
+
+.third{
+  padding-top: 9.6%;
+}
+
+.informations>a>img{
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.informations>a{
+  display: inline-block;
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  -webkit-transition: .3s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.informations>a:hover{
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.third>div>h3{
+  color: #000;
+  font-family: 'Playfair Display', serif;
+  border-top : 1.9px solid #fff;
+  border-bottom : 1.9px solid #fff;
+  padding: 15px 0;
+}
+
+.third>div>h3>p{
+  color: #26CAE3;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-style: italic;
+}
 
 
 @media screen and (max-width: 850px){
-  .monSlider{
+  div.monSlider{
     display: none;
   }
 }

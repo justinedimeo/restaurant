@@ -76,7 +76,7 @@
           <h2 class="titreSlide">
           1 rue du Progrès
           </h2>
-          <p>Villers-Sur-Marne</p>
+          <p>Villiers-Sur-Marne</p>
           <button><a href="" title="La Carte">La Carte</a></button>
         </div>
       </div>
@@ -95,8 +95,13 @@
       <!-- 3RD SLIDE -->
       <div class="monSlider-slide">
         <a href="" title=""><img src="images/pageaccueil3.png" alt="un plat" /></a>
-        <div class="informations">
-          <h2 class="titreSlide">Je suis un H2 <a href="" title="">plus d'informations ici</a></h2>
+        <div class="third informations row">
+          <a class="columns large-4" href="" title="facebook du restaurant"><img src="images/reseaux_sociaux/fb.png" alt="logo facebook"/></a>
+          <div class="columns large-4">
+            <h3>N'hésitez pas à partager votre expérience !
+            <p>Retrouvez-nous sur les réseaux sociaux</p>
+          </div> </h3>
+          <a class="columns large-4" href="" title="instagram du restaurant"><img src="images/reseaux_sociaux/insta.png" alt="logo instagram"/></a>
         </div>
       </div>
     </div>
@@ -154,8 +159,10 @@
   <script>
     $('.monSlider').slick({
       dots: true,
+      fade: true,
+      autoplay: true,
+      speed: 500,
       infinite: true,
-      speed: 1000,
       slidesToShow: 1,
       adaptiveHeight: true,
     });
