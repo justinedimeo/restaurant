@@ -30,7 +30,7 @@ ul {
 ul.menu1>li {
   display: inline-block;
   position: relative;
-  padding: 30px 50px;
+  padding: 30px 40px;
   transition: linear 0.5s;
 }
 
@@ -48,3 +48,49 @@ ul.menu1 li a:hover {
 a {
   text-decoration: none;
 }
+
+/* HAMBURGER */
+
+#button{
+  display: none;
+}
+
+#burgerMenu {
+  display: none;
+  background-color: #FFFFFF;
+  position: fixed;
+  left: -1900px;
+  width: 100%;
+  height: 100%;
+  transition: cubic-bezier(0.165, 0.840, 0.440, 1.000) 1s all;
+}
+
+#burgerMenu>nav{
+  text-align: center;
+}
+
+#burgerMenu ul {
+  list-style: none;
+  padding: 0;
+}
+
+#burgerMenu ul li a {
+  display: block;
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Playfair Display' , serif;
+}
+
+@media screen and (max-width: 850px){
+  
+  #headerOne{
+    display: none;
+  }
+  
+  #burgerMenu, #button{
+    display: block;
+  }
+}
+
+
+/* END OF HAMBURGER */
