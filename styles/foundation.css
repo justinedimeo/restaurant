@@ -487,8 +487,8 @@ button {
 .is-hidden {
   display: none !important; }
 
-.row {
-  max-width: 75rem; }
+/*.row {
+  max-width: 75rem; }*/
   .row::before, .row::after {
     display: table;
     content: ' '; }
