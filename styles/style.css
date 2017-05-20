@@ -1,3 +1,9 @@
+/* 
+
+HEADER 
+
+*/
+
 header {
   font-family: 'Playfair Display' , serif;
 }
@@ -6,21 +12,32 @@ nav {
   background: #000000;
 }
 
+nav img{
+  width: 17%;
+  display: inline-block;
+  margin-left: 2%;
+}
+
+.menu1{
+  padding-left: 150px;
+}
+
 ul {
   list-style: none;
+  display: inline-block;
 }
 
 ul.menu1>li {
   display: inline-block;
   position: relative;
-  padding: 30px;
+  padding: 30px 50px;
   transition: linear 0.5s;
 }
 
 ul.menu1 li a {
   display: inline-block;
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 22px;
   transition: ease-in-out 0.4s;
 }
 
