@@ -108,23 +108,26 @@ a {
   position: relative;
 }
 
+.titreSlide{
+  font-family: 'Playfair Display' , serif;
+  color: #26CAE3;
+  font-size: 25px;
+  padding-left: 28px;
+  padding-top: 30px;
+}
+
 .monSlider-slide .informations {
   position: absolute;
-  bottom: 0;
+  top: 10%;
   left: 0;
   width: 100%;
 }
 
-.slick-prev {
-  left: 25px;
-  z-index: 99;
+.informations>p{
+  color: #fff;
+  font-family: 'Playfair Display' , serif;
+  padding-left: 28px;
 }
-
-.slick-next {
-  right: 25px;
-  z-index: 99;
-}
-
 
 /** RESPONSIVE DU SLIDER **/
 

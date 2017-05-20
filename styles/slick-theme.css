@@ -23,7 +23,7 @@
     line-height: 0;
 
     position: absolute;
-    top: 50%;
+    top: -50%;
 
     display: block;
 
@@ -77,10 +77,6 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.slick-prev
-{
-    left: -25px;
-}
 [dir='rtl'] .slick-prev
 {
     right: -25px;
@@ -95,10 +91,7 @@
     content: '→';
 }
 
-.slick-next
-{
-    right: -25px;
-}
+
 [dir='rtl'] .slick-next
 {
     right: auto;
@@ -178,7 +171,7 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    font-size: 30px;
+    font-size: 40px;
     line-height: 20px;
 
     position: absolute;
