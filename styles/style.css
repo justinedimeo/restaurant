@@ -1,0 +1,33 @@
+header {
+  font-family: 'Playfair Display' , serif;
+}
+
+nav {
+  background: #000000;
+}
+
+ul {
+  list-style: none;
+}
+
+ul.menu1>li {
+  display: inline-block;
+  position: relative;
+  padding: 30px;
+  transition: linear 0.5s;
+}
+
+ul.menu1 li a {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 20px;
+  transition: ease-in-out 0.4s;
+}
+
+ul.menu1 li a:hover {
+  opacity: 0.6;
+}
+
+a {
+  text-decoration: none;
+}
