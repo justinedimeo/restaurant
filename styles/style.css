@@ -246,13 +246,13 @@ div.plat {
 
 .plat2 {
   padding-top: 3%;
-  padding-left: 30px;
 }
 
 .plat2>h1 {
   font-family: 'Playfair Display', serif;
   font-size: 35px;
   font-style: italic;
+  padding-left: 30px;
 }
 
 h1:after {
@@ -266,28 +266,34 @@ h1:after {
 .plat2>p{
   padding-top: 6%;
   padding-right: 6%;
+  padding-left: 30px;
   font-family: 'PT Sans', sans-serif;
 }
 
-.plat2>button>a {
-  color: #fff;
-  display: inline-block;
-  padding: 9px 20px;
-  transition: ease-in-out 0.5s;
+.plat2>div>a>img{
+  width: 45%;
 }
 
-.plat2>button>a:hover {
-  background: #000;
-  color: #fff;
-  border-radius: 5px;
+.plat2>div{
+  padding-top: 10%;
+  text-align: center;
+  padding-bottom: 5%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
-.plat2>button {
-  background-color: #26CAE3;
+.plat2>div:hover{
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.plat2>div>a>p{
+  color: #000;
+  padding-top: 5%;
   font-family: 'Playfair Display', serif;
-  border-radius: 3px;
-  margin-top: 40px;
-  font-weight: 800;
+  font-style: italic;
 }
 
 
