@@ -266,6 +266,28 @@ h1:after {
 .plat2>p{
   padding-top: 6%;
   padding-right: 6%;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.plat2>button>a {
+  color: #fff;
+  display: inline-block;
+  padding: 9px 20px;
+  transition: ease-in-out 0.5s;
+}
+
+.plat2>button>a:hover {
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.plat2>button {
+  background-color: #26CAE3;
+  font-family: 'Playfair Display', serif;
+  border-radius: 3px;
+  margin-top: 40px;
+  font-weight: 800;
 }
 
 
