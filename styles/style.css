@@ -480,12 +480,12 @@ div.chef {
 
 /* STARTER */
 
-.starter>.entrees, .starter>div>p{
+.section>.imagePlat, .section>div>p{
   padding: 3%;
   font-family: 'PT Sans', sans-serif;
 }
 
-.starter>h2{
+.section>h2{
   text-align: center;
   font-family: 'Playfair Display', serif;
   color: #26CAE3;
@@ -493,7 +493,7 @@ div.chef {
   font-size: 28px;
 }
 
-.starter>div>p>span{
+.section>div>p>span{
   display: block;
   border-bottom: 0.3px dashed #26CAE3;
   font-family: 'PT Sans', sans-serif;
