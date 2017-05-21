@@ -50,6 +50,7 @@ a {
 
 #button {
   display: none;
+  position: fixed;
 }
 
 #burgerMenu {
@@ -79,7 +80,7 @@ a {
 }
 
 @media screen and (max-width: 850px) {
-  #headerOne {
+  #headerOne>nav {
     display: none;
   }
   
