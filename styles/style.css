@@ -51,6 +51,7 @@ a {
 #button {
   display: none;
   position: fixed;
+  margin-left: 85%;
 }
 
 #burgerMenu {
