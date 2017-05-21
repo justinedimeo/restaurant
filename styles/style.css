@@ -4,7 +4,7 @@ header {
   font-family: 'Playfair Display', serif;
 }
 
-nav {
+#headerOne>nav {
   background: #000000;
 }
 
@@ -55,8 +55,8 @@ a {
 }
 
 #burgerMenu {
-  display: none;
-  background-color: #FFFFFF;
+  background-size: cover;
+  background-image: url('../images/glace.png');
   position: fixed;
   left: -1900px;
   width: 100%;
@@ -76,8 +76,14 @@ a {
 #burgerMenu ul li a {
   display: block;
   font-size: 30px;
-  color: #fff;
+  padding: 49px 0px;
+  color: #FFF;
   font-family: 'Playfair Display', serif;
+  transition: ease-in-out 0.5s;
+}
+
+#burgerMenu ul li a:hover {
+  color: #26CAE3;
 }
 
 @media screen and (max-width: 850px) {
