@@ -80,6 +80,7 @@ a {
   color: #FFF;
   font-family: 'Playfair Display', serif;
   transition: ease-in-out 0.5s;
+  font-weight: 700;
 }
 
 #burgerMenu ul li a:hover {
@@ -90,13 +91,11 @@ a {
   #headerOne>nav {
     display: none;
   }
-  
   #burgerMenu,
   #button {
     display: block;
     z-index: 1000;
   }
-  
 }
 
 
@@ -250,7 +249,8 @@ quote.JeanLouis {
 
 /* PRESENTATION */
 
-div.plat, div.chef {
+div.plat,
+div.chef {
   margin-top: 3%;
 }
 
@@ -258,14 +258,16 @@ div.plat, div.chef {
   padding-top: 3%;
 }
 
-.plat2>h1 {
+.plat2>h1,
+.plat2>h2 {
   font-family: 'Playfair Display', serif;
   font-size: 35px;
   font-style: italic;
   padding-left: 30px;
 }
 
-h1:after {
+h1:after,
+h2:after {
   content: '';
   width: 54%;
   border-bottom: #26CAE3 1px solid;
@@ -273,7 +275,7 @@ h1:after {
   vertical-align: middle;
 }
 
-.plat2>p{
+.plat2>p {
   padding-top: 6%;
   padding-right: 6%;
   padding-left: 30px;
@@ -302,19 +304,60 @@ h1:after {
   font-weight: 800;
 }
 
-.pres2>div.chef>img{
+
+/** CHEF **/
+
+.pres2>div.chef>img {
   width: 50%;
 }
 
-.chef{
+.chef {
   text-align: center;
   background-color: #000;
   padding-top: 2%;
 }
 
-.chefQuote{
+.chefQuote {
   font-family: 'Playfair Display', serif;
   font-style: italic;
+}
+
+
+/** CONTACT **/
+
+.map {
+  margin-top: 7%;
+  text-align: center;
+}
+
+.pres3>div>h3 {
+  font-family: 'Playfair Display', serif;
+  color: #26CAE3;
+  padding-left: 5%;
+  padding-top: 7%;
+}
+
+.pres3>div>p {
+  padding-left: 6%;
+  padding-top: 2%;
+  font-family: 'PT Sans', sans-serif;
+  color: #838688;
+  font-size: 20px;
+}
+
+.map {
+  position: relative;
+  padding-bottom: 35%;
+  height: 0;
+  overflow: hidden;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 
