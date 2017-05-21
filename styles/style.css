@@ -1,4 +1,9 @@
-/* HEADER */
+/**
+
+
+HEADER 
+
+**/
 
 header {
   font-family: 'Playfair Display', serif;
@@ -102,7 +107,114 @@ a {
 /* END OF HAMBURGER */
 
 
-/* MAIN */
+/**
+
+
+FOOTER
+
+
+**/
+
+#footer {
+  width: 100%;
+  margin-top: 40px;
+  height: 100%;
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+.pagesLinks {
+  text-align: center;
+  color: #26CAE3;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.pagesLinks a {
+  font-family: 'PT Sans', sans-serif;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.share {
+  text-align: center;
+  margin-bottom: -18px;
+}
+
+.share .blue_line {
+  color: #26CAE3;
+  font-size: 50px;
+  display: inline-block;
+}
+
+.share #footerShare {
+  color: #FFFFFF;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: 6px;
+}
+
+.socialNetworks {
+  text-align: center;
+}
+
+.socialNetworks img {
+  width: 40px;
+  height: 40px;
+  margin: 10px 22px;
+}
+
+.informationsFooter {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.infosBig {
+  display: inline-block;
+  margin: 0 60px;
+}
+
+.infosBig img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+
+.infosBig .infosLittle {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 17px;
+  color: #FFFFFF;
+  display: inline-block;
+}
+
+.infosBig .infos1 {
+  vertical-align: top;
+  text-align: left;
+}
+
+.infosBig .telephone {
+  vertical-align: 25px;
+}
+
+.logo {
+  width: 150px;
+  margin-top: 30px;
+}
+
+
+
+
+/*** PAGE INDEX ***/
+
+/** MAIN **/
 
 
 /* FIRST SLIDER */
@@ -361,102 +473,15 @@ h2:after {
 }
 
 
-/********
 
-FOOTER
+/** PAGE CARTE **/
 
-********/
+/** MAIN **/
 
-#footer {
-  width: 100%;
-  margin-top: 40px;
-  height: 100%;
-  background-color: #000000;
-  padding: 10px;
-  text-align: center;
-}
 
-.pagesLinks {
-  text-align: center;
-  color: #26CAE3;
-  font-weight: bold;
-  font-size: 23px;
-}
 
-.pagesLinks a {
-  font-family: 'PT Sans', sans-serif;
-  text-decoration: none;
-  color: #FFFFFF;
-  font-size: 17px;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin: 5px;
-}
 
-.share {
-  text-align: center;
-  margin-bottom: -18px;
-}
 
-.share .blue_line {
-  color: #26CAE3;
-  font-size: 50px;
-  display: inline-block;
-}
 
-.share #footerShare {
-  color: #FFFFFF;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 24px;
-  font-weight: bold;
-  text-transform: uppercase;
-  display: inline-block;
-  vertical-align: 6px;
-}
 
-.socialNetworks {
-  text-align: center;
-}
 
-.socialNetworks img {
-  width: 40px;
-  height: 40px;
-  margin: 10px 22px;
-}
-
-.informationsFooter {
-  margin-top: 20px;
-  text-align: center;
-}
-
-.infosBig {
-  display: inline-block;
-  margin: 0 60px;
-}
-
-.infosBig img {
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-}
-
-.infosBig .infosLittle {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 17px;
-  color: #FFFFFF;
-  display: inline-block;
-}
-
-.infosBig .infos1 {
-  vertical-align: top;
-  text-align: left;
-}
-
-.infosBig .telephone {
-  vertical-align: 25px;
-}
-
-.logo {
-  width: 150px;
-  margin-top: 30px;
-}
