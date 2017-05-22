@@ -589,9 +589,41 @@ div.chef {
 }
 
 
+/** PAGE CHEF **/
 
+.team>img {
+  width: 140%;
+  position: absolute;
+}
 
+.team>quote {
+  position: relative;
+  left: 25%;
+  margin: 15px;
+  font-family: 'PT Sans', sans-serif;
+  color: #FFFFFF;
+  text-align:center;
+}
 
+.team>quote>span {
+  color: #26CAE3;
+}
 
+.team>div {
+  position: relative;
+  top: 430px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .5s ease-in-out;
+}
 
+.team>div:hover{
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
 
+.team>div>a {
+  font-family: 'PT Sans', sans-serif;
+  color: #FFFFFF;
+}
