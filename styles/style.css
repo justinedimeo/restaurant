@@ -117,7 +117,7 @@ FOOTER
 
 #footer {
   width: 100%;
-  margin-top: 150px;
+  margin-top: 3%;
   height: 100%;
   background-color: #000000;
   padding: 10px;
@@ -423,6 +423,10 @@ div.chef {
   width: 50%;
 }
 
+.pres2>.chef{
+  margin-top: 0;
+}
+
 .chef {
   text-align: center;
   background-color: #000;
@@ -592,40 +596,21 @@ div.chef {
 /** PAGE CHEF **/
 
 /* IMAGE DE L'EQUIPE */
-.team {
-  margin-bottom:650px;
+
+.team{
+  background-image: url('../images/team.png');
+  background-size: cover;
+  padding: 2%;
+  height: 500px;
 }
 
-.team>img {
-  width: 140%;
-  position: absolute;
-}
-
-.team>quote {
-  position: relative;
-  left: 25%;
-  margin: 15px;
-  font-family: 'PT Sans', sans-serif;
-  color: #FFFFFF;
+.team>p{
+  color: #fff;
   text-align: center;
-}
-
-.team>quote>span {
-  color: #26CAE3;
-}
-
-.team>div {
-  position: relative;
-  top: 460px;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .5s ease-in-out;
-}
-
-.team>div:hover{
-  -webkit-transform: scale(1.15);
-  transform: scale(1.15);
+  font-family: 'PT Sans', sans-serif;
+  width: 80%;
+  margin: auto;
+  font-size: 20px;
 }
 
 .team>div>a {
@@ -633,14 +618,21 @@ div.chef {
   color: #FFFFFF;
 }
 
+.team>div{
+  text-align: center;
+  padding-top: 30%;
+}
+
 /* HISTOIRE */
 
 #histoire {
-  padding: 0 40px;
+  padding: 0 5%;
 }
 
 #histoire>.parcours {
-  margin:20px 40px 0 40px;
+  margin-top: 2%;
+  margin-right: 8%;
+  margin-bottom: 2%;
 }
 
 #histoire>.parcours>h1 {
@@ -664,7 +656,7 @@ div.chef {
 }
 
 #histoire>.icons {
-  margin-top:20%;
+  margin-top:25%;
 }
 
 #histoire>.icons>.icons2>img {
@@ -676,4 +668,8 @@ div.chef {
 #histoire>.icons>.icons2>p {
   display: inline-block;
   vertical-align:-25%;
+}
+
+.icons2{
+  margin-top: 5%;
 }
