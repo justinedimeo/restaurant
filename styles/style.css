@@ -43,8 +43,6 @@ ul.menu1 li a {
   position: relative;
 }
 
-
-
 ul.menu1 li a:before {
   content: "";
   position: absolute;
@@ -790,4 +788,16 @@ div.chef {
 .icons2 {
   margin-top: 3%;
   text-align: center;
+}
+
+
+/** PAGE CONTACT **/
+
+.cont>div>h3 {
+  font-size: 20px;
+  padding-top: 1%;
+}
+
+.cont>div>p {
+  font-size: 16px;
 }
