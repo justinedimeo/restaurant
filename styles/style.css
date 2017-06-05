@@ -273,19 +273,19 @@ FOOTER
   padding-left: 28px;
 }
 
-.informations>button>a {
+.informations>a.menuBut {
   color: #fff;
   display: inline-block;
   padding: 9px 20px;
   transition: ease-in-out 0.5s;
 }
 
-.informations>button>a:hover {
+.informations>a.menuBut:hover {
   background: #fff;
   color: #26CAE3;
 }
 
-.informations>button {
+.informations>a.menuBut {
   background-color: #26CAE3;
   font-family: 'Playfair Display', serif;
   border-radius: 2px;
@@ -315,14 +315,14 @@ FOOTER
   text-align: center;
 }
 
-.informations>div>p {
+.informations>div>p.jl {
   color: #26CAE3;
   font-family: 'Playfair Display', serif;
   font-size: 20px;
   font-style: italic;
 }
 
-quote.JeanLouis {
+p.JeanLouis {
   display: inline-block;
   color: #000000;
   font-family: 'Playfair Display', serif;
@@ -339,13 +339,13 @@ quote.JeanLouis {
   padding-top: 9.6%;
 }
 
-.informations>a>img {
+.informations>a.imgSlide>img {
   width: 40%;
   margin: auto;
   text-align: center;
 }
 
-.informations>a {
+.informations>a.imgSlide {
   display: inline-block;
   -webkit-transform: scale(0.8);
   transform: scale(0.8);
@@ -353,7 +353,7 @@ quote.JeanLouis {
   transition: .5s ease-in-out;
 }
 
-.informations>a:hover {
+.informations>a.imgSlide:hover {
   -webkit-transform: scale(0.7);
   transform: scale(0.7);
 }
@@ -366,7 +366,7 @@ quote.JeanLouis {
   padding: 15px 0;
 }
 
-.third>div>h3>p {
+.third>div>p {
   color: #26CAE3;
   font-family: 'Playfair Display', serif;
   font-size: 20px;
@@ -415,20 +415,20 @@ div.chef {
   font-family: 'PT Sans', sans-serif;
 }
 
-.plat2>button>a {
+.plat2>a {
   color: #fff;
   display: inline-block;
   padding: 9px 20px;
   transition: ease-in-out 0.5s;
 }
 
-.plat2>button>a:hover {
+.plat2>a:hover {
   background: #000;
   color: #fff;
   border-radius: 4px;
 }
 
-.plat2>button {
+.plat2>a {
   background-color: #26CAE3;
   font-family: 'Playfair Display', serif;
   border-radius: 2px;
